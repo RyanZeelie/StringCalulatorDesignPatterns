@@ -4,7 +4,9 @@
     {
         public string[] GetDelimiters(string inputString, string delimiterIndicator)
         {
-            throw new NotImplementedException();
+            var delimiters = new List<string> { ",", "\n" };
+
+            return delimiters.ToArray();
         }
     }
 }
